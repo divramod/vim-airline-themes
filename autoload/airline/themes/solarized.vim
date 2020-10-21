@@ -1,5 +1,6 @@
 let g:airline#themes#solarized#palette = {}
 
+
 function! airline#themes#solarized#refresh()
   """"""""""""""""""""""""""""""""""""""""""""""""
   " Options
@@ -231,4 +232,3 @@ function! airline#themes#solarized#refresh()
 endfunction
 
 call airline#themes#solarized#refresh()
-

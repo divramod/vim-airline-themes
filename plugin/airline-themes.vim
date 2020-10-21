@@ -10,6 +10,5 @@ if &cp || v:version < 702 || (exists('g:loaded_airline_themes') && g:loaded_airl
   finish
 endif
 let g:loaded_airline_themes = 1
-
 let &cpo = s:save_cpo
 unlet s:save_cpo
